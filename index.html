@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Rane | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    
+    <nav class="navbar">
+        <div class="nav-logo">RR</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#research">Research</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact" class="nav-cta">Contact</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="hero-badge">Available for opportunities</div>
+                <h1 class="hero-title">
+                    <span class="title-line">Rohan</span>
+                    <span class="title-line title-italic">Rane</span>
+                </h1>
+                <p class="hero-subtitle">Software Engineer crafting scalable systems & intelligent solutions</p>
+                <div class="hero-links">
+                    <a href="mailto:ryrane.in@gmail.com" class="hero-link">
+                        <span class="link-icon">✉</span>
+                        ryrane.in@gmail.com
+                    </a>
+                    <a href="tel:+19342211543" class="hero-link">
+                        <span class="link-icon">☎</span>
+                        +1 (934)-221-1543
+                    </a>
+                    <a href="https://linkedin.com/in/rohan-rane-9a292a221" target="_blank" class="hero-link">
+                        <span class="link-icon">in</span>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/rohanyrane" target="_blank" class="hero-link">
+                        <span class="link-icon">⌘</span>
+                        GitHub
+                    </a>
+                </div>
+                <div class="hero-cta">
+                    <a href="#experience" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="window-title">rohan.config.ts</span>
+                    </div>
+                    <pre class="code-content"><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"Rohan Rane"</span>,
+  <span class="property">role</span>: <span class="string">"Software Engineer"</span>,
+  <span class="property">location</span>: <span class="string">"New York"</span>,
+  <span class="property">education</span>: <span class="string">"MS Data Science @ SBU"</span>,
+  <span class="property">interests</span>: [
+    <span class="string">"Distributed Systems"</span>,
+    <span class="string">"Machine Learning"</span>,
+    <span class="string">"Full-Stack Development"</span>
+  ],
+  <span class="property">coffee</span>: <span class="boolean">true</span>
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a software engineer with a passion for building robust, scalable systems. 
+                        Currently pursuing my <span class="highlight">Master's in Data Science at Stony Brook University</span>, 
+                        I bring hands-on experience from developing LLM-powered pipelines, distributed systems, 
+                        and production-grade microservices.
+                    </p>
+                    <p>
+                        My journey spans from crafting real-time dashboards to optimizing high-volume database queries 
+                        and implementing fault-tolerant architectures. I thrive at the intersection of 
+                        software engineering and data science.
+                    </p>
+                </div>
+                <div class="education-cards">
+                    <div class="edu-card">
+                        <div class="edu-icon">🎓</div>
+                        <div class="edu-details">
+                            <h3>Stony Brook University</h3>
+                            <p class="edu-degree">M.S. in Data Science</p>
+                            <p class="edu-date">Aug 2025 - May 2027</p>
+                            <p class="edu-courses">Data Analysis, DSA, Probability</p>
+                        </div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-icon">🎓</div>
+                        <div class="edu-details">
+                            <h3>Sardar Patel Institute of Technology</h3>
+                            <p class="edu-degree">B.Tech in Electronics & Telecommunication</p>
+                            <p class="edu-date">Aug 2020 - May 2024</p>
+                            <p class="edu-courses">OOP, DBMS, AI/ML, Big Data, Networks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="experience-timeline">
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-company">
+                            <h3>IDfy</h3>
+                            <span class="exp-location">Mumbai, India</span>
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-role">Software Engineer</span>
+                            <span class="exp-date">Jul 2024 - Jun 2025</span>
+                        </div>
+                    </div>
+                    <ul class="exp-achievements">
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Implemented an LLM-powered RAG pipeline that surfaced relevant fraud and verification data on demand, removing manual searches and accelerating investigation throughput.
+                        </li>
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Engineered a standalone microservice generating <strong>production-grade PDFs</strong> with configurable templates for verification and fraud-processing pipelines.
+                        </li>
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Implemented correlation-safe <strong>ThreadLocal-style logging</strong> for asynchronous multi-worker fraud-scoring flows, increasing trace coverage and audit quality.
+                        </li>
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Strengthened pipeline reliability with <strong>circuit breakers, timeouts, and fallback handlers</strong> preventing cascaded failures during load surges.
+                        </li>
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Automated end-to-end <strong>CI/CD for detection microservices</strong> with post-deployment tests, branch rules, and quality gates.
+                        </li>
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Optimized high-volume identity-record queries in <strong>distributed PostgreSQL</strong> via workload-specific indexing and execution-plan tuning.
+                        </li>
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Published operational metrics into <strong>Grafana dashboards</strong> for pod-level and service-level observability.
+                        </li>
+                    </ul>
+                    <div class="exp-tags">
+                        <span class="tag">LLM</span>
+                        <span class="tag">RAG</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Grafana</span>
+                        <span class="tag">Microservices</span>
+                    </div>
+                </div>
+
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-company">
+                            <h3>IDfy</h3>
+                            <span class="exp-location">Mumbai, India</span>
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-role">Software Engineer Intern</span>
+                            <span class="exp-date">Jan 2024 - Jun 2024</span>
+                        </div>
+                    </div>
+                    <ul class="exp-achievements">
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Developed a modular API-integration layer with schema-based validation and PostgreSQL-backed metadata storage, enabling consistent onboarding of 150+ verification APIs.
+                        </li>
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Built a <strong>distributed extraction pipeline</strong> using RabbitMQ with multi-threaded parallel processing, retry handling, and dead letter queue (DLQ).
+                        </li>
+                        <li>
+                            <span class="achievement-icon">→</span>
+                            Created a <strong>real-time operational dashboard</strong> using React, Node.js, and WebSockets to track bulk verification jobs and SLA breaches.
+                        </li>
+                    </ul>
+                    <div class="exp-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">RabbitMQ</span>
+                        <span class="tag">WebSockets</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">📄</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Intelligent Contract Summarization</h3>
+                            <span class="project-badge">ML/AWS</span>
+                        </div>
+                        <p class="project-description">
+                            A comprehensive contract analysis system using AWS Textract, fine-tuned Falcon-7B with LoRA, 
+                            and intelligent risk detection — achieving sub-4s latency for document processing.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Textract-to-inference pipeline with Lambda, API Gateway, and S3</li>
+                            <li>Fine-tuned Falcon-7B with LoRA on CUAD dataset</li>
+                            <li>SageMaker deployment with drift detection and CloudWatch monitoring</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>AWS</span>
+                            <span>Python</span>
+                            <span>RabbitMQ</span>
+                            <span>SageMaker</span>
+                            <span>DynamoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🗄️</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>DynoStore</h3>
+                            <span class="project-badge">Distributed Systems</span>
+                        </div>
+                        <p class="project-description">
+                            A fault-tolerant, horizontally scalable key-value store inspired by DynamoDB's architecture.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Consistent hashing for partitioning and replication</li>
+                            <li>gRPC coordination with quorum reads/writes</li>
+                            <li>Gossip-style failure detection and auto-rebalancing</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Go</span>
+                            <span>gRPC</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🤖</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>DRL Path Planner</h3>
+                            <span class="project-badge">Reinforcement Learning</span>
+                        </div>
+                        <p class="project-description">
+                            Deep reinforcement learning agents for path planning in simulated environments.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Q-learning with DQN, Double DQN, Dueling DDQN</li>
+                            <li>Actor-Critic methods for continuous 2D environments</li>
+                            <li>TD3 agents tested in ROS/Gazebo simulations</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>TensorFlow</span>
+                            <span>ROS</span>
+                            <span>Gazebo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">📊</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Content Performance Insights</h3>
+                            <span class="project-badge">Data Analytics</span>
+                        </div>
+                        <p class="project-description">
+                            End-to-end analytics pipeline for content-level metrics modeling and anomaly detection.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Analytics pipeline with Python, SQL, Pandas & SQLAlchemy</li>
+                            <li>Anomaly detection using scikit-learn</li>
+                            <li>Plotly/Dash dashboard for trends & performance signals</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Pandas</span>
+                            <span>Plotly</span>
+                            <span>Dash</span>
+                            <span>scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">📺</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Streaming Service Analytics</h3>
+                            <span class="project-badge">Data Engineering</span>
+                        </div>
+                        <p class="project-description">
+                            Large-scale streaming analytics dashboard with anomaly detection for device-level workloads.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Pipeline ingesting large synthetic streaming datasets</li>
+                            <li>Isolation Forest anomaly detection for watch patterns</li>
+                            <li>Interactive dashboards for engagement & device metrics</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>SQL</span>
+                            <span>Plotly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🛒</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>ChainKart</h3>
+                            <span class="project-badge">Blockchain</span>
+                        </div>
+                        <p class="project-description">
+                            Full-stack blockchain-powered e-commerce platform with web and mobile apps.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Solidity smart contracts for decentralized transactions</li>
+                            <li>On-chain product listing, orders & payment flows</li>
+                            <li>REST APIs integrated with decentralized backend</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Solidity</span>
+                            <span>React.js</span>
+                            <span>React Native</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🚦</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Dynamic Traffic Signal System</h3>
+                            <span class="project-badge">Computer Vision</span>
+                        </div>
+                        <p class="project-description">
+                            Intelligent traffic management system using Raspberry Pi and real-time vehicle detection.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>YOLO & Haar Cascade for dynamic vehicle detection</li>
+                            <li>Virtual simulation with Python Turtle library</li>
+                            <li>Comparative analysis on accuracy & RAM optimization</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>YOLO</span>
+                            <span>Raspberry Pi</span>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🅿️</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Smart Parking Web App</h3>
+                            <span class="project-badge">Web3</span>
+                        </div>
+                        <p class="project-description">
+                            Blockchain-based parking system tokenizing parking spaces with Ethereum.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Tokenized parking spaces on Ethereum</li>
+                            <li>Automated booking with smart contracts</li>
+                            <li>User-friendly interface for reservations</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Solidity</span>
+                            <span>Hardhat</span>
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section (Publications & Patents) -->
+        <section class="research" id="research">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Research & Patents</h2>
+            </div>
+            <div class="research-grid">
+                <div class="research-card publication">
+                    <div class="research-badge">
+                        <span class="badge-icon">📄</span>
+                        <span class="badge-text">Publication Under Review</span>
+                    </div>
+                    <h3 class="research-title">Optimizing Path Planning using Deep Reinforcement Learning for UGVs in Precision Agriculture</h3>
+                    <p class="research-venue">
+                        <span class="venue-icon">📚</span>
+                        Artificial Intelligence in Agriculture, Elsevier
+                    </p>
+                    <p class="research-description">
+                        This study enhances path planning for UGVs in precision agriculture by applying deep reinforcement learning (DRL) 
+                        in continuous action spaces. It critiques traditional grid-based methods, exploring Deep Q-Networks (DQN) for 
+                        improved adaptability in 2D simulations. Additionally, the research tests continuous action DRL models, such as 
+                        DDPG and TD3, in complex 3D environments using ROS and Gazebo, demonstrating their effectiveness in dynamic 
+                        agricultural scenarios.
+                    </p>
+                    <div class="research-tags">
+                        <span>Deep Reinforcement Learning</span>
+                        <span>UGV</span>
+                        <span>Path Planning</span>
+                        <span>ROS</span>
+                        <span>Gazebo</span>
+                    </div>
+                </div>
+
+                <div class="research-card patent">
+                    <div class="research-badge patent-badge">
+                        <span class="badge-icon">⚖️</span>
+                        <span class="badge-text">Patent Under Review</span>
+                    </div>
+                    <h3 class="research-title">LEGISLEDGER — A Differential Case Flow Management System</h3>
+                    <p class="research-venue">
+                        <span class="venue-icon">🏛️</span>
+                        Indian Patents & Trade Office
+                    </p>
+                    <p class="research-description">
+                        This invention automates court case management using Differentiated Case Flow Management (DCM) with NLP 
+                        for case classification, prioritizing urgent cases to reduce delays and enhance efficiency. A blockchain-based 
+                        e-vault ensures secure, tamper-proof storage of legal records, while cross-platform access via web and mobile 
+                        interfaces enables remote case tracking and management. This solution aims to streamline judicial processes, 
+                        improve data security, and foster transparency in legal proceedings.
+                    </p>
+                    <div class="research-tags">
+                        <span>NLP</span>
+                        <span>Blockchain</span>
+                        <span>Legal Tech</span>
+                        <span>Case Management</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">⌨</span>
+                        Languages
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">NoSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">⚡</span>
+                        Frameworks & Tech
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">React.js</span>
+                        <span class="skill-item">React Native</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">Flask</span>
+                        <span class="skill-item">Tailwind</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Redis</span>
+                        <span class="skill-item">RabbitMQ</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">☁</span>
+                        Cloud & DevOps
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">AWS Lambda</span>
+                        <span class="skill-item">S3</span>
+                        <span class="skill-item">SQS/SNS</span>
+                        <span class="skill-item">SageMaker</span>
+                        <span class="skill-item">GCP</span>
+                        <span class="skill-item">CI/CD</span>
+                        <span class="skill-item">Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">🧠</span>
+                        ML & Data
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">Scikit-Learn</span>
+                        <span class="skill-item">PyTorch</span>
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">Matplotlib</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">🗃</span>
+                        Databases
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">DynamoDB</span>
+                        <span class="skill-item">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">🔧</span>
+                        Tools & Methods
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Jira</span>
+                        <span class="skill-item">Agile</span>
+                        <span class="skill-item">Scrum</span>
+                        <span class="skill-item">REST API</span>
+                        <span class="skill-item">OOP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <h2 class="contact-title">Let's Build Something Together</h2>
+                <p class="contact-text">
+                    I'm currently looking for new opportunities and my inbox is always open. 
+                    Whether you have a question or just want to say hi, I'll get back to you!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:ryrane.in@gmail.com" class="contact-link primary">
+                        <span class="contact-icon">✉</span>
+                        ryrane.in@gmail.com
+                    </a>
+                    <a href="https://linkedin.com/in/rohan-rane-9a292a221" target="_blank" class="contact-link">
+                        <span class="contact-icon">in</span>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/rohanyrane" target="_blank" class="contact-link">
+                        <span class="contact-icon">⌘</span>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Designed & Built by Rohan Rane</p>
+        <p class="footer-note">© 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
